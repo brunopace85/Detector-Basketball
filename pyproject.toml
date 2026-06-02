@@ -1,0 +1,29 @@
+[project]
+name = "meu-projeto"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "VictorTB",email = "victorthiagob@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ultralytics (>=8.4.53,<9.0.0) ; python_version < \"3.14\"",
+    "numpy (>=2.4.6,<3.0.0) ; python_version < \"3.14\"",
+    "opencv-python (>=4.13.0.92,<5.0.0.0) ; python_version < \"3.14\"",
+    "requests (>=2.34.2,<3.0.0) ; python_version < \"3.14\"",
+    "inference-sdk (>=1.2.10,<2.0.0) ; python_version < \"3.14\""
+]
+
+[tool.poetry]
+packages = [{include = "meu_projeto", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "jupyter (>=1.1.1,<2.0.0)",
+    "ipykernel (>=7.2.0,<8.0.0)"
+]

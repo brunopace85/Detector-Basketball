@@ -1,0 +1,20 @@
+{
+  "inference_id": "c99448e9-646e-4016-a6ae-8fc9668df32c",
+  "time": 0.00629738112911582,
+  "image": {
+    "width": 612,
+    "height": 408
+  },
+  "predictions": [
+    {
+      "x": 325.0,
+      "y": 281.0,
+      "width": 132.0,
+      "height": 158.0,
+      "confidence": 0.9931322932243347,
+      "class": "Basketball Hoop",
+      "class_id": 1,
+      "detection_id": "1052a8d0-6491-488c-8da4-dffb9946b861"
+    }
+  ]
+}

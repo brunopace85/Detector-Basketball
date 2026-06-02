@@ -1,0 +1,13 @@
+# Drone Detection Application - Core Dependencies
+# Python 3.14+
+
+# Computer Vision & ML
+ultralytics>=8.4.53,<9.0.0
+numpy>=2.4.6,<3.0.0
+opencv-python>=4.13.0.92,<5.0.0.0
+
+# API & HTTP
+requests>=2.34.2,<3.0.0
+
+# Roboflow SDK
+inference-sdk>=1.2.10,<2.0.0
